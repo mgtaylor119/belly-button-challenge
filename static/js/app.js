@@ -12,11 +12,6 @@ dataPromise.then(function(data) {
     let values = samples[0].sample_values;
     let labels = samples[0].otu_labels
 
-    const customColorScale = [
-        [0, 'rgb(66, 135, 245)'],  
-        [0.5, 'rgb(0, 255, 0)'],   
-        [1, 'rgb(139, 69, 19)']    
-    ];
 
 let panelContent = document.getElementById('sample-metadata');
 let panelId = document.createElement('p');
@@ -61,7 +56,7 @@ let bubbleData = {
     marker: {
       size: values,
       color: ids,
-      colorscale: customColorScale
+      colorscale: "Earth"
     }
   };
   let bubbleLayout = {
@@ -160,7 +155,7 @@ function optionChanged(name) {
         marker: {
           size: updatedBubValues,
           color: updatedBubIds,
-          colorscale: customColorScale
+          colorscale: "Earth"
         }
       }];
       let bubbleLayout = {
