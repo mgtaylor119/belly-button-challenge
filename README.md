@@ -8,7 +8,7 @@ Below is an example of the bar chart, showing the top ten OTU's for the individu
 ![Drop Down](image link)
 
 Below is an example of the bubble chart, showing each individual's OTU IDs and Sample_Values:
-![Bubble Chart](image link)
+![Bubble Chart](https://github.com/mgtaylor119/belly-button-challenge/blob/main/images/bubble__chart.png?raw=true)
 
 And here is an example of the demographic info box, which will update with the individual's demographic information once selected from the drop down:
 ![Demographic Info](image link)
